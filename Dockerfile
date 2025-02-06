@@ -9,7 +9,4 @@ COPY ./src ./src
 EXPOSE 8080
 
 CMD ["marimo", "edit", "--host", "0.0.0.0", "--port", "8080", "--no-token"]
-# CMD [ "marimo", "run", "./src/myapp.py", "--host", "0.0.0.0", "--port", "8080", "--no-token" ]
-
-
-
+# CMD [ "marimo", "run", "./src/myapp.py", "--host", "0.0.0.0", "--port", "8080", "--no-token"]

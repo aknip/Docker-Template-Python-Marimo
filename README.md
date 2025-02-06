@@ -4,12 +4,20 @@ docker-compose up --build
 
 Folder src can be edited 
 
-docker build -t my_app .  
-docker run -p 8080:8080 -it my_app
+docker build -t marimo .  
+docker run -p 8080:8080 -it marimo
 
 
 ## Run in Gitpod
 https://gitpod.io/#https://github.com/aknip/Docker-Template-Python-Marimo
+
+
+## fly.io
+- Install CLI: brew install flyctl
+- Init existing app (first deploy): 
+    - fly launch --now
+- Update: 
+    - fly deploy
 
 
 # Start marimo
